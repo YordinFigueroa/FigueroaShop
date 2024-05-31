@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.enlaces-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 18px;
+}
+
+.enlaces{
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.enlaces:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.logo-1{
+    width: 300px;
+}
+
+.imagen{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    padding-top: 50px;
+}
+
+.container{
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 500px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    padding: 30px;
+    font-size: 60px;
+}
+
+.Form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.container:hover{
+    color: #ccc;
+    background-color: #000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+label{
+    font-weight: 900;
+    font-size: 30px;
+    background-color: transparent;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input{
+    font-size: 20px;
+    background-color: transparent;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Send{
+    padding: 15px;
+}
+
+.button{
+    font-size: 20px;
+    width: 120px;
+    color: #fff;
+    background-color: #000000;
+    border: none;  
+    border-radius: 20px;
+    padding: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #ff0000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+nav{
+    height: 50px;
+}
+
+header{
+    width: 100%;
+}
+
+a{
+    background-color: #fff;
+}
+
+i{
+    font-size: 21px;
+}
+

@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+    width: 100%;
+}
+
+.enlaces-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 18px;
+}
+
+.enlaces{
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.enlaces:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.caja{
+    width: 100%;
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.containers{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-1{
+    width: 300px;
+}
+
+.img-contenedor{
+    margin: 10px;
+    border-radius: 30px;
+    width: 270px;
+    display: flex;
+}
+
+i{
+    font-size: 25px;
+}
+
+button{
+    color: #fff;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #000000;  
+}
+
+button:hover{
+    color: #000;
+    cursor: pointer;
+    background-color: #ff0000;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+p{
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 1200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+
+h4{
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 1200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+
+h5{
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 1200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+
+p:hover{
+    cursor: pointer;
+    background-color: #851010;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+h4:hover{
+    cursor: pointer;
+    background-color: #7c1459;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.mujer:hover{
+    background-color: #921468;
+}
+
+h5:hover{
+    cursor: pointer;
+    background-color: #152779;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.zapatos:hover{
+    background-color: #002fff;
+}
